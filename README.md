@@ -21,5 +21,8 @@ The Translate button can be added to either a post, page or a widget area using 
 * **Horizontal**: `[google-translate style="horizontal"]`
 * **Vertical**: `[google-translate style="vertical"]`
 
+### Prevent Translation
+Sections of your WordPress site can be excluded from being translated by adding the `notranslate` class to any html element.
+
 ## License
 Google Translate SC is licensed under [GNU General Public License v2 (or later)](https://github.com/JustinByrne/Google-Translate-SC/blob/master/LICENSE).
