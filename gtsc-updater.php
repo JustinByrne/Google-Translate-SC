@@ -1,5 +1,5 @@
 <?php
-class GitHubUpdater	{
+class gtscUpdater	{
 
 	private $slug; // plugin slug
 	private $pluginData; // plugin data

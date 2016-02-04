@@ -3,7 +3,7 @@
  * Plugin Name: Google Translate Short Code
  * Plugin URI: https://github.com/JustinByrne/Google-Translate-SC
  * Description: This plugin adds a shortcode to add a Google translate button
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Justin Byrne
  * Author URI: http://jnm-tech.co.uk
  * License: GPL2
@@ -12,12 +12,12 @@
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 
 require_once( ABSPATH . 'wp-includes/pluggable.php' );
-require_once( 'git-hub-updater.php' );
+require_once( 'gtsc-updater.php' );
 
 // creating a new plugin update instant
 if ( is_admin() ) {
 
-	new GitHubUpdater( __FILE__, 'JustinByrne', "Google-Translate-SC" );
+	new gtscUpdater( __FILE__, 'JustinByrne', "Google-Translate-SC" );
 
 }
 
